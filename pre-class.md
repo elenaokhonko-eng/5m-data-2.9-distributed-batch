@@ -12,7 +12,7 @@ Apache Spark is the industry standard for large-scale batch data processing. Mos
 
 ### Key concepts
 
-**Spark Architecture** — Spark builds a DAG (directed acyclic graph) of transformations and only executes when an "action" (like `.show()` or `.count()`) is called. This is the same concept from Polars (Unit 2.8) but now distributed across multiple machines.
+**Spark Architecture** — Spark builds a DAG (directed acyclic graph) of transformations and only executes when an "action" (like `.show()` or `.count()`) is called. This is the same concept from Polars (**Lesson 2.8**) but now distributed across multiple machines.
 
 **Spark DataFrames and SQL** — Spark's DataFrame API mirrors pandas-like operations (`.select()`, `.filter()`, `.groupBy()`) but executes across a cluster. The ability to register a DataFrame as a SQL temp view means data engineers and analysts can collaborate in the same framework.
 
